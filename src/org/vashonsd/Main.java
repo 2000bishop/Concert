@@ -11,5 +11,16 @@ public class Main {
      */
     public static void main(String[] args) {
 
+        System.out.println("welcome to the admiral");
+        Performer jackNicholson = new Performer("jackNicholson","played primarily in movies");
+        jackNicholson.addHit("Batman");
+        System.out.println(jackNicholson);
+        Performer stanly = new Performer("stanly","directed movies");
+        stanly.addHit("spiderman");
+        System.out.println(stanly);
+        Performer johnnydepp = new Performer("johnnydepp","worked closely with tim berten");
+        johnnydepp.addHit("pirates of the carabean");
+        System.out.println(johnnydepp);
+
     }
 }
